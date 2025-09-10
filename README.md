@@ -118,10 +118,3 @@ Deleted EBS snapshot snap-0123456789abcdef0 (created on 2023-09-23T12:34:56Z) as
 Deleted EBS snapshot snap-0987654321fedcba0 (created on 2023-07-19T08:12:34Z) as the volume vol-1234567890abcdef0 was not attached to any running instance.
 ```
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contributing
-
-If you would like to contribute to this project, feel free to fork the repository and submit a pull request.
