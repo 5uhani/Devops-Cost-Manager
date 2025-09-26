@@ -36,3 +36,4 @@ def lambda_handler(event, context):
                     # The volume associated with the snapshot is not found (it might have been deleted)
                     ec2.delete_snapshot(SnapshotId=snapshot_id)
                     print(f"Deleted EBS snapshot {snapshot_id} (created on {start_time}) as its associated volume {volume_id} was not found.")
+
